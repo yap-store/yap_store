@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #7554faff;
+    color: #ffff3bff;
+}
+
+#Menu{
+    width: 50px;
+    margin-left: 10px;
+    line-height: 50px;
+    float: left;
+}
+
+# Wishlist {
+    width: 50px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 50px;
+    float: left;
+}
+
+#Brand {
+    text-align: center;
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    line-height: 50px;
+    float: left;
+}
+
+Search-back {
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    border: #7554faff; 
+    float: left;
+}
+
+#Search {
+    height: 30px;
+    right: 10%;
+    line-height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+#Basket {
+    line-height: 50px;
+    margin-right: 10px;
+    float: right;
+}
