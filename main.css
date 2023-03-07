@@ -1,27 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
-header {
-    height: fit-content;
+#body {
+    display: flex;
+}
+
+footer {
+    padding-left: 20px;
+    background-color: white;
+    color: #7554faff;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
     width: 100%;
+    height: 100px;
+    border-top: 1px solid #7554faff;
+}
+
+#ourContacts {
+    font-size: 30px; 
+    font-style: italic;
+}
+
+#header-filler{
+    height: 60px;
+}
+
+#group-filler{
+    background-color: red;
+    display: block;
+    height: 100px;
+    width: 80%;
+}
+
+header nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
     background-color: #7554faff;
     color: #ffff3bff;
-    display: flex;
+    display:inline-flex;
 }
-nav
-{
+
+#brand {
+    text-align: center;
     width: 100%;
-    display: flex;
+    font-size: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    line-height: 60px;
 }
-#menu{
+
+#menu {
     width: 50px;
     height: fit-content;
     margin-left: 10px;
     float: left; 
- 
 }
 
 #wishlist {
@@ -29,27 +67,26 @@ nav
     margin-left: 10px;
     height: 30px;
     float: left; 
- 
 }
 
-#brand {
-    width: 100%;
-    font-size: 40px;
-    font-family: 'Comic Neue', cursive;
-    font-weight: bold;
-    float: left; 
- 
+.iconButton {
+    display: inline-block;
+    margin: 15px;
 }
 
 #search-field {
-    height: 35px;
-    width: 200px;
+    height: 30px;
+    width: 230%;
     background-color: rgb(76, 62, 133);
-    border-radius: 5px;
+    border-radius: 10px;
     border: #7554faff; 
-    float: left; 
-    margin-right: 10px;
- 
+    float: right;  
+}
+
+.iconSearch {
+    position: absolute;
+    right: 5px;
+    top: 2px;
 }
 
 #search {
@@ -57,19 +94,64 @@ nav
     width: fit-content;
     float: right; 
     position: relative;
- 
 }
 
 #basket {
+    width: 50px;
+    line-height: 60px;
     float: right; 
- 
+    margin: 10px; 
 }
-.icon{
-    position: absolute;
-    right: 15px;
+
+#main {
+    width: auto;
 }
-.iconButton
-{
-    display: inline-block;
-    margin: 15px;
+
+#menu-panel {
+    display: block;
+    height: auto;
+    width: 20%;
+    background-color: white;
+    border-right: 1px solid #7554faff; 
+    float: left;
+}
+
+#groups{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    color: #7554faff;
+    height: 65px;
+    width: 80%;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+
+.groupButton {
+    display: block;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 85px;
+    height: 65px;
+}
+
+.groupButton:active {
+    border: 2px solid #7554faff;
+    border-radius: 10px;
+    height: 55px;
+}
+
+.groupIcon {
+    line-height: 20px;
+    text-align: center;
+    display: block;   
+}
+
+.groupName {
+    text-align: center;
+    display: block;
+    position: flex;
+    width: auto;
 }
