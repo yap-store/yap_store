@@ -9,7 +9,6 @@
 }
 
 footer {
-    padding-left: 20px;
     background-color: white;
     color: #7554faff;
     font-size: 20px;
@@ -154,4 +153,7 @@ header nav{
     display: block;
     position: flex;
     width: auto;
+}
+.footer-contacts-card{
+    margin-left: 20px;
 }
