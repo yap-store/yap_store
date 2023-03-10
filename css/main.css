@@ -1,39 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
+a {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration='none';
+    color='#7554faff';
+}
+
 main{
     padding-top: 60px;
+    overflow-x: hidden;
 }
+    
 #body {
     display: flex;
-}
-
-footer {
-    background-color: white;
-    color: #7554faff;
-    font-size: 20px;
-    font-family: 'Balsamiq Sans', cursive;
-    width: 100%;
-    height: 100px;
-    border-top: 1px solid #7554faff;
-}
-
-#ourContacts {
-    font-size: 30px; 
-    font-style: italic;
-}
-
-#header-filler{
-    height: 60px;
-}
-
-#group-filler{
-    background-color: red;
-    display: block;
-    height: 100px;
-    width: 80%;
 }
 
 header nav{
@@ -42,7 +29,7 @@ header nav{
     position: fixed;
     background-color: #7554faff;
     color: #ffff3bff;
-    display:inline-flex;
+    display: inline-flex;
 }
 
 #brand {
@@ -54,11 +41,12 @@ header nav{
     font-style: italic;
     float: left;
     line-height: 60px;
+    padding-left: 11%;
 }
 
 #menu {
     width: 50px;
-    height: fit-content;
+    height: 30px;
     margin-left: 10px;
     float: left; 
 }
@@ -77,17 +65,21 @@ header nav{
 
 #search-field {
     height: 30px;
-    width: 230%;
+    width: 170%;
     background-color: rgb(76, 62, 133);
     border-radius: 10px;
-    border: #7554faff; 
+    border: 1px solid #7554faff; 
     float: right;  
+    color: #ffff3bff;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .iconSearch {
     position: absolute;
     right: 5px;
-    top: 2px;
+    top: 3px;
 }
 
 #search {
@@ -104,6 +96,28 @@ header nav{
     margin: 10px; 
 }
 
+#profileButton {
+    text-align: center;
+    display: block;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menuButtons {
+    display: block;
+    text-align: center;
+    margin-left: 40px;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #7554faff;
+    color: #ffff3bff;
+    border-radius: 25px;
+}
+
 #main {
     width: auto;
 }
@@ -115,33 +129,33 @@ header nav{
     background-color: white;
     border-right: 1px solid #7554faff; 
     float: left;
+    min-width: 250px;
+    overflow-y: scroll;
 }
 
 #groups{
     display: flex;
     position: fixed;
     background-color: white;
-    color: #7554faff;
     height: 65px;
-    width: 100%;
+    width: 81%;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 20px;
+    overflow-y: hidden;
 }
 
 .groupButton {
     display: block;
-    padding-top: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 5px;
     width: 85px;
-    height: 65px;
+    height: 66px;
 }
 
 .groupButton:active {
-    border: 2px solid #7554faff;
-    border-radius: 10px;
     height: 55px;
+    padding: 1px;
+    margin: 1px;
+    border: 3px solid #7554faff;
+    border-radius: 10px;   
 }
 
 .groupIcon {
@@ -151,19 +165,143 @@ header nav{
 }
 
 .groupName {
+    color: #7554faff;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
     text-align: center;
     display: block;
     position: flex;
     width: auto;
 }
+
+#sortingTypes {
+    margin-left: 30px;
+}
+
+.radio {
+    opacity: 0;
+}
+
+.filter {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#priceLow {
+    display: block;
+    float: left;
+    margin-left: -20px;
+    width: 70px;
+    height: 30px;
+    line-height: 35px;
+    border: 3px solid #7554faff;
+    border-radius: 17.5px;
+    background-color: white;
+    color: #7554faff;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+}
+
+#-{
+    text-align: center;
+    display: block;
+    background-color: #7554faff;
+    border-radius: 1.5px;
+    width: auto;
+    height: 3px;
+}
+
+#priceHigh {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    line-height: 35px;
+    border: 3px solid #7554faff;
+    border-radius: 17.5px;
+    background-color: white;
+    color: #7554faff;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center; 
+}
+
+label {
+    width: flex;
+    font-size: 20px;
+    cursor: pointer;
+    color: #7554faff;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.checkbox {
+    opacity: 0;
+}
+
+.li1 {
+    list-style-type: disc;
+    color: #7554faff;
+    font-family: 'Balsamiq Sans', cursive;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#brands {
+    margin-top: 45px;
+}
+
+.li2 {
+    list-style-type: none;
+    height: 25px;
+    line-height: 25px;
+}
+
+.menu-panel-structure {
+    text-align: center;
+    display: block;
+    background-color: #7554faff;
+    color: #ffff3bff;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    height: 35px;
+    line-height: 35px;
+    min-width: 170px;
+    width: 68%; 
+    border: 1px solid #7554faff;
+    border-radius: 17.5px;
+    margin-left: 16%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#ourContacts {
+    font-size: 30px; 
+    font-style: italic;
+}
+
+footer {
+    background-color: white;
+    color: #7554faff;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #7554faff;
+}
+
 .footer-contacts-card{
     margin-left: 20px;
 }
+
 .inner-products-window{
     width: 100%;
 }
+
 .products-output-scrollable{
-    margin-top: 65px;
+    margin-top: 66px;
     overflow-y: scroll;
-    height: 714px;
+    min-height:420px;
 }
