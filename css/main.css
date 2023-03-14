@@ -10,8 +10,8 @@ a {
 }
 
 .link {
-    text-decoration='none';
-    color='#7554faff';
+    text-decoration: none;
+    color: #7554faff;
 }
 
 main{
@@ -42,6 +42,11 @@ header nav{
     float: left;
     line-height: 60px;
     padding-left: 11%;
+}
+
+#ourBrand {
+    text-decoration: none;
+    color: #ffff3bff;
 }
 
 #menu {
@@ -96,19 +101,34 @@ header nav{
     margin: 10px; 
 }
 
+#menu-panel {
+    display: block;
+    height: auto;
+    width: 20%;
+    background-color: white;
+    border-right: 1px solid #7554faff; 
+    float: left;
+    min-width: 230px;
+    min-height: 660px;
+}
+
 #profileButton {
     text-align: center;
     display: block;
-    margin: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .menuButtons {
+    text-decoration: none;
     display: block;
     text-align: center;
-    margin-left: 40px;
-    width: 170px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    min-width: 160px;
     height: 40px;
     line-height: 40px;
     font-size: 30px;
@@ -120,17 +140,6 @@ header nav{
 
 #main {
     width: auto;
-}
-
-#menu-panel {
-    display: block;
-    height: auto;
-    width: 20%;
-    background-color: white;
-    border-right: 1px solid #7554faff; 
-    float: left;
-    min-width: 250px;
-    overflow-y: scroll;
 }
 
 #groups{
@@ -303,5 +312,6 @@ footer {
 .products-output-scrollable{
     margin-top: 66px;
     overflow-y: scroll;
-    min-height:420px;
+    height: auto;
+    height:594px;
 }
