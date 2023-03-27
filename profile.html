@@ -13,44 +13,83 @@
                 <div id='menu' class='iconButton'>
                 <a><img  src='img/Menu.svg' height="30px"></a>
                 </div>
-                <div id='wishlist' class='iconButton'>
-                  <a><img  src='img/Wishlist.svg' height="30px"></a>
+                <div id='wishlist' class='iconButton' href='wishlist.html'>
+                  <a href='wishlist.html'><img  src='img/Wishlist.svg' height="30px"></a>
                 </div>
                 <div id='brand' >
-                  <a href='index.html' class='link'>YaP</a>
+                  <a href='index.html' id='ourBrand'>YaP</a>
                 </div>
                 <div id='search' class='iconButton'>
                   <input type="text" id='search-field'>
                   <a class ='iconSearch'><img  src="img/Search.svg" height="25px" width="25px"></a>
                 </div>
-                <div id='basket' class='iconButton'>
-                  <a><img src='img/Basket.svg' height="35px"></a>
+                <div id='basket' class='iconButton' href='basket.html'>
+                  <a href='basket.html'><img src='img/Basket.svg' height="35px"></a>
                 </div>
             </nav>
         </header>
         <main>
-            <nav id='profileSettings'>
+            <nav id='profile-settings'>
                 <div id='profilePhoto'>
-                    <label><img src='img/Ава.svg'></label>
-                    <input type='file' id='photoInput'>
+                    <img src='img/Ава.svg' id='photo-img'>
+                    <label id='photoInput'><input type="file">Вставте фото</label>
                 </div>
-                <nav>
-                    <input type='text' placeholder='Імʼя' id='profileFirstName'>
-                    <input type='text' placeholder='Прізвище' id='profileLastName'>
-                    <input type='radio' placeholder='Стать' id='profileSex'>
-                    <input type='date' placeholder='День Народження' id='profileBirthday'>
-                    <input type='tel' placeholder='Телефон' id='profileTel'>
-                    <input type='text' placeholder='Адреса' id='profileAddress'>
-                </nav>
+                <div id='profile-info-settings'>
+                    <div id='input-profile-container'>
+                        <input type='text' placeholder='Ваше імʼя' class='profile-input'>
+                        <input type='text' placeholder='Ваше прізвище' class='profile-input'>
+                        <input type='text' placeholder='По-батькові' class='profile-input'>
+                        <input type='date' placeholder='День Народження' class='profile-input'>
+                        <input type='tel' placeholder='Телефон' class='profile-input'>
+                        <input type='text' placeholder='Адреса'  class='profile-input'>
+                        <input type='text' placeholder='Поштовий індекс'  class='profile-input'>
+                        <div class='profile-input'>
+                            <select id='sex-options' placeholder='Ваша стать'>
+                                <option class='sex-option'>Чоловік</option>
+                                <option class='sex-option'>Жінка</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
                 <input type='checkbox'>
                 <label id='permit'>Дозволити відображення мого списку бажань іншим користувачам сайту</label>
-            </nav>
-            <nav id='history'>
-            </nav>
-            <nav id='yourComments'>
+                <div id='history'>
+                    <div id='history-title'>Історія покупок:</div>
+                    <div class='history-element'>
+                        <img src='img/img.png' class='history-element-photo'>
+                        <div class='history-element-text'>
+                            <div class='history-element-info'>Товар1</div>
+                            <div class='history-element-info'>Бренд1</div>
+                            <div class='history-element-info'>27.03.2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div id='your-coments'>
+                    <div id='coments-title-profile'>Ваші коментарі:</div>
+                    <div id='coments-scrollable'>
+                        <div class='coment'>
+                            <div class='coment-title'>
+                                <div class='userPhoto-coments'><img src='img/img.png'></div>
+                                <div class='product-info-coment'>
+                                    <div class='productName-coment'>Товар1</div>
+                                    <div class='productBrand-coment'>Бренд1</div>
+                                    <a><div class='answerButton-coment'><img src='img/answer.svg'></div></a>
+                                    <div class='answerNumber-coment'>2</div>
+                                </div>    
+                            </div>
+                            <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент </div>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </main>
         <footer>
+             <div class="footer-contacts-card">
+            <div id='ourContacts'>Наші контакти: </div>
+            <a href='tel:+38 (068) 050-80-08' class='link'>+38 (068) 050-80-08</a><br>
+            <a href='mailto:support.yap.com' class='link'>support@yap.com</a> <br>
+            <a href='https://www.google.com/maps/place/вулиця+Бальзака,+80,+Київ,+02000/@50.5246295,30.6062368,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4d11a188b6f1b:0xb871b544eb2f655c!8m2!3d50.5246296!4d30.610464!16s%2Fg%2F11f5k20z6f' class='link' >вул. Бальзака 80 кв. 30</a><br>
+        </div>
         </footer>
     </body>
 </html>
