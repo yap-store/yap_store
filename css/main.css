@@ -9,7 +9,7 @@ a {
     cursor: pointer;
 }
 
-input:focus, select:focus {
+input:focus, select:focus, textarea:focus {
     outline: 0;
     outline-offset: 0;
 }
@@ -253,10 +253,6 @@ header nav{
     margin-top: 2.5px;
 }
 
-.wishlist-img {
-    
-}
-
 #sortingTypes {
     margin-left: 30px;
 }
@@ -424,6 +420,7 @@ footer {
 .photoProduct-wishlist img {
     height: 120px;
     width: 120px;
+    border-radius: 20px;
 }
 
 #aboutProduct-wishlist {
@@ -548,6 +545,8 @@ footer {
 }
 
 #stock-product img {
+    height: 20px;
+    width: 20px;
     margin-right: 10px;
 }
 
@@ -640,6 +639,7 @@ th {
 #coments-scrollable {
     max-height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .coment {
@@ -659,6 +659,11 @@ th {
     margin: 5px;
 }
 
+.coment hr {
+    width: 95%;
+    margin: 5px 2.5%;
+}
+
 .userName-coment {
     display: inline-block;
     float: left;
@@ -667,27 +672,19 @@ th {
     margin-left: 10px;
 }
 
-.answerButton-coment {
-    display: inline-block;
-    float: right;
-    height: 80px;
-    line-height: 80px;
-}
-
 .answerButton-coment img {
     display: inline-block;
     float: right;
-    margin-top: 25px;
-    margin-right: 10px;
     height: 30px;
     width: 30px;
+    border-radius: 0;
+    margin-top: 25px;
 }
 
 .answerNumber-coment {
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     float: right;
-    margin-right: 10px;
     line-height: 80px;
 }
 
@@ -711,6 +708,66 @@ th {
     margin-left: 15px;
     max-height: 75px;
     overflow-y: hidden;
+}
+
+.coment-answer {
+    width:90%;
+    margin-left: 10%;
+}
+
+.coment-answer .coment-send-container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.coment-answer-input {
+    display: inline-block;
+    float: center;
+    width: 80%;
+    margin: 10px 0;
+    height: 60px; 
+    border: 3px solid #7554faff;
+    border-radius: 20px;
+}
+
+.coment-answer-input textarea {
+    display: inline-block;
+    float: center;
+    border-radius: 18px;
+    width: 98.5%;
+    height: 100%;
+    padding-left: 1.5%;
+    color: #7554faff;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    line-height: 30px;
+    resize: none;
+    border: none;
+}
+
+.coment-clip {
+    float: left;
+}
+
+.coment-send {
+    float: right;
+}
+
+.coment-clip, .coment-send {
+    display: inline-block;
+    height: 66px;
+    line-height: 66px;
+    width: 9.5%;
+    min-width: 40px;
+    margin: 10px 0; 
+}
+
+.coment-clip img, .coment-send img {
+    display: inline-block;
+    align-self: center;
+    height: 40px;
+    margin: 13px 25%;
+    width: 40px;
 }
 
 #output-scroll {
@@ -968,6 +1025,7 @@ hr {
     display: inline-block;
     height: 214px;
     width: 214px;
+    border-radius: 40px;
 }
 
 #photoInput input {
@@ -1222,6 +1280,41 @@ hr {
     margin-top: 30px;
 } 
 
-.product-info-coment {
-    
+#rights-left {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    min-width: 260px;
+    height: 100vh;
+    border-right: 1px solid #7554faff;
+}
+
+#rights-right {
+    display: inline-block;
+    width: 79%;
+    height: 100vh;
+    float: left;
+}
+
+.rights-docs {
+    width: 200px;
+    margin: 30px;
+    text-align: left;
+    color: #7554faff;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.rights-docs:hover {
+    width: 220px;
+    margin-right: 10px;
+    color: #7554faff;
+    font-size: 22px;
+}
+
+#rights-doc-output {
+    display: inline-block;
+    width: 90%;
+    margin: 10px 5%;
+    overflow-y: scroll;
 }
