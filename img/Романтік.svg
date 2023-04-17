@@ -2,22 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="12.554886mm"
-   height="12.835949mm"
-   viewBox="0 0 12.554886 12.835949"
+   width="12.55489mm"
+   height="12.835938mm"
+   viewBox="0 0 12.55489 12.835938"
    version="1.1"
-   id="svg5"
-   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
-   sodipodi:docname="Сайт1.svg"
+   id="svg68348"
    xml:space="preserve"
-   inkscape:export-filename="../PNG/Сайт1.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-filename="Ава.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
+   sodipodi:docname="Ава.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview7"
+     id="namedview68350"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -26,18 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.67351921"
-     inkscape:cx="881.93476"
-     inkscape:cy="481.05532"
-     inkscape:window-width="1280"
-     inkscape:window-height="772"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true" /><defs
-     id="defs2"><linearGradient
+     showgrid="false" /><defs
+     id="defs68345"><linearGradient
        id="linearGradient6508"
        inkscape:swatch="solid"><stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -46,44 +35,39 @@
      inkscape:label="Шар 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-188.90737,-28.044536)"><g
-       id="g8357"
-       inkscape:label="Групи товарів"
-       transform="translate(0.13550892,-0.22549156)"><g
-         id="g8234"
-         inkscape:label="Романтік"><g
-           style="fill:#7554fa;fill-opacity:1"
-           id="g2631"
-           transform="matrix(0.01376641,0,0,0.01311736,188.31375,28.270027)"
-           inkscape:label="Романтика"><g
-             id="g2616"
-             style="fill:#7554fa;fill-opacity:1">
+     transform="translate(-58.533994,-126.35109)"><g
+       id="g2616"
+       style="fill:#6962d5;fill-opacity:1"
+       transform="matrix(0.01376641,0,0,0.01311736,58.075894,126.35109)"
+       inkscape:export-filename="Романтік.svg"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
 	<g
    id="g2614"
-   style="fill:#7554fa;fill-opacity:1">
+   style="fill:#6962d5;fill-opacity:1">
 		<path
    d="m 463.124,286.1 c 9.199,7.2 19.8,14.6 27.6,23.3 0.4,-0.4 0.8,-0.8 1.2,-1.2 7.7,-8.2 17.7,-15.3 26.5,-22.1 36.3,-28.4 77.1,-51.2 109.5,-84.4 28.6,-29.2 50.899,-68.9 47.6,-111 -0.1,-1.6 -0.3,-3.1 -0.5,-4.7 -6.5,-50.9 -54.6,-86 -103.8,-86 -9.3,0 -18.6,1.3 -27.7,3.9 -21.3,6.2 -39.3,19.6 -52.8,36.8 -13.5,-17.2 -31.5,-30.6 -52.8,-36.8 -9.101,-2.6 -18.4,-3.9 -27.7,-3.9 -49.1,0 -97.3,35 -103.8,86 -0.2,1.5 -0.4,3.1 -0.5,4.7 -3.3,42.1 19,81.8 47.6,111 32.499,33.2 73.299,56 109.6,84.4 z"
    id="path2602"
-   style="fill:#7554fa;fill-opacity:1" />
+   style="fill:#6962d5;fill-opacity:1" />
 		<path
    d="m 54.523,940.4 114.6,36.699 c 16.1,5.101 33.2,-3.699 38.4,-19.8 v 0 c 5.1,-16.1 -3.7,-33.2 -19.8,-38.399 l -26.2,-8.4 47.8,-146.9 c -10.3,-1.8 -20.5,-4.3 -30.5,-7.5 -10.9,-3.5 -21.3,-7.699 -31.3,-12.699 L 99.624,890.6 l -26.5,-8.5 c -16.1,-5.1 -33.2,3.7 -38.4,19.801 v 0 c -5.1,16.099 3.7,33.299 19.799,38.499 z"
    id="path2604"
-   style="fill:#7554fa;fill-opacity:1" />
+   style="fill:#6962d5;fill-opacity:1" />
 		<path
    d="m 156.924,714.6 c 26.3,13.801 60.9,22.301 90.7,22.301 58.7,0 115.5,-27.5 152.1,-73.5 33.3,-41.9 43.8,-95.9 52.8,-147.4 4.7,-27.1 20.8,-142.5 21.4,-152.7 0.5,-8.4 1.3,-19.4 -3,-26.9 -3.7,-6.7 -10,-11.8 -17.3,-14.1 l -246.5,-78.9 c -3.1,-1 -6.2,-1.5 -9.3,-1.5 -10.9,0 -21.2,5.8 -26.7,15.7 -31.4,56.5 -62.6,113.6 -88.8,172.7 -14.4,32.2 -27.5,65.3 -29.4,100.8 -1.7,29.801 3.7,59.9 15.4,87.301 17.5,41.098 49,75.498 88.6,96.198 z m 55.4,-405.4 198.7,63.6 c -9.8,82.601 -19.7,145 -28.899,183.2 l -95.4,-30.5 -61.9,-19.8 -95.4,-30.5 c 14.799,-36.6 42.899,-93 82.899,-166 z"
    id="path2606"
-   style="fill:#7554fa;fill-opacity:1" />
+   style="fill:#6962d5;fill-opacity:1" />
 		<g
    id="g2612"
-   style="fill:#7554fa;fill-opacity:1">
+   style="fill:#6962d5;fill-opacity:1">
 			<path
    d="m 905.424,882.2 -26.5,8.5 -47.9,-147.2 c -10,4.9 -20.399,9.2 -31.3,12.7 -10,3.2 -20.2,5.7 -30.5,7.5 l 47.8,146.8 -26.2,8.4 c -16.1,5.1 -24.899,22.3 -19.8,38.399 v 0 c 5.101,16.101 22.3,24.9 38.4,19.8 l 114.6,-36.699 c 16.101,-5.101 24.9,-22.301 19.8,-38.4 v 0 c -5.1,-16.1 -22.301,-24.9 -38.4,-19.8 z"
    id="path2608"
-   style="fill:#7554fa;fill-opacity:1" />
+   style="fill:#6962d5;fill-opacity:1" />
 			<path
    d="m 504.424,345 c -0.7,3.1 -0.9,6.4 -0.5,9.8 0.1,1.2 15.399,131.8 28.5,194.8 7,33.9 15.8,67.801 34.6,97.301 15.9,24.899 37.4,46 62.601,61.3 30.399,18.6 65.699,28.6 101.3,28.6 20.2,0 40.399,-3.2 59.6,-9.3 10.9,-3.5 21.2,-7.8 31,-13 52.8,-27.6 90.601,-79.5 101.2,-138 11.3,-62.3 -13.8,-120.6 -40.1,-175.5 -23.4,-48.7 -49.101,-96.2 -75.301,-143.4 -5.5,-9.9 -15.8,-15.7 -26.699,-15.7 -3.101,0 -6.2,0.5 -9.301,1.5 l -246.5,78.9 c -10.501,3.399 -18.1,12.199 -20.4,22.699 z m 261.8,-35.8 c 40,73 68.2,129.399 82.9,165.899 l -95.4,30.5 -61.9,19.801 -95.399,30.5 c -9.2,-38.2 -19.101,-100.5 -28.9,-183.2 z"
    id="path2610"
-   style="fill:#7554fa;fill-opacity:1" />
+   style="fill:#6962d5;fill-opacity:1" />
 		</g>
 	</g>
-</g></g></g></g></g></svg>
+</g></g></svg>

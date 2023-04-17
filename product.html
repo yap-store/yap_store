@@ -29,7 +29,7 @@
             </nav>
         </header>
         <main>
-            <nav id='about-product'>
+            <div id='about-product'>
                 <div id='photo-product'>
                     <div id='all-photo'><ul>
                         <li class='all-photo'><a><img src='img/img.png'></a></li>
@@ -46,12 +46,21 @@
                     <div id='brand-product'><a href='brand-page.html' class='link'>Бренд 1</a></div>
                     <div id='price-product'>100 грн</div>
                     <div id='stock-product'><img src='img/tick.svg'>В наявності</div>
+                    <div id='color-product'> 
+                        <a><div class='color-option'>1</div></a>
+                        <a><div class='color-option'>1</div></a>
+                        <a><div class='color-option'>1</div></a>
+                        <a><div class='color-option'>1</div></a>
+                    </div>
                     <div id='buy-product'><a>Купити</a></div>
                     <div id='wishlist-product'><a><img src='img/Wishlist.svg'></a></div>
                 </div>
-            </nav>
+            </div>
+            <div id='titles-product'>
+                <a><div class='product-title'>Характеристики</div></a>
+                <a><div class='product-title'>Коментарі</div></a>
+            </div>
             <div id='info-product'>
-                <div id='info-product-title'>Про товар:</div>
                 <table id='info-product-table'>
                     <tr>
                         <th class='th-left'>Колір</th>
@@ -76,72 +85,69 @@
                 </table>
             </div>
             <div id='coments'>
-                <div class='coments-title'>Коментарі:</div>
-                <div id='coments-scrollable'>
-                    <div class='coment'>
-                        <div class='coment-title'>
-                            <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
-                            <div class='userName-coment'>Користувач 1</div>
-                            <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
-                            <div class='answerNumber-coment'>2</div></a>
-                        </div>
-                        <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
-                        <hr> 
-                        <div class='coment-answer'>
-                            <div class='coment-title'>
-                            <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
-                            <div class='userName-coment'>Користувач 1</div>
-                            <a><div class='answerButton-coment'><img src='img/answer-checked.svg'></div>
-                            <div class='answerNumber-coment'>2</div></a>
-                            </div>
-                            <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
-                        </div>
-                        <div  class='coment-send-container'>
-                            <div class='coment-clip'><a><img src='img/clip.svg'></a></div>
-                            <div class='coment-answer-input'><textarea class='coment-answer-textarea' placeholder='Прокоментуйте відповідь'></textarea></div>
-                            <div class='coment-send'><a><img src='img/send.svg'></a></div>
-                        </div>
-                    </div>
-                    <div class='coment'>
-                        <div class='coment-title'>
-                            <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
-                            <div class='userName-coment'>Користувач 1</div>
-                            <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
-                            <div class='answerNumber-coment'>2</div></a>
-                        </div>
-                        <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
-                    </div>
-                    <div class='coment'>
-                        <div class='coment-title'>
-                            <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
-                            <div class='userName-coment'>Користувач 1</div>
-                            <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
-                            <div class='answerNumber-coment'>2</div></a>
-                        </div>
-                        <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
-                    </div>
-                    <div class='coment'>
-                        <div class='coment-title'>
-                            <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
-                            <div class='userName-coment'>Користувач 1</div>
-                            <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
-                            <div class='answerNumber-coment'>2</div></a>
-                        </div>
-                        <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
-                    </div>
-                </div>
                 <div class='coment-send-container'>
                     <div class='coment-clip'><a><img src='img/clip.svg'></a></div>
                     <div class='coment-answer-input'><textarea class='coment-answer-textarea' placeholder='Прокоментуйте відповідь'></textarea></div>
                     <div class='coment-send'><a><img src='img/send.svg'></a></div>
+                </div>
+                <div class='coment'>
+                    <div class='coment-title'>
+                        <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
+                        <div class='userName-coment'>Користувач 1</div>
+                        <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
+                        <div class='answerNumber-coment'>2</div></a>
+                    </div>
+                    <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
+                    <hr> 
+                    <div class='coment-answer'>
+                        <div class='coment-title'>
+                        <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
+                        <div class='userName-coment'>Користувач 1</div>
+                        <a><div class='answerButton-coment'><img src='img/answer-checked.svg'></div>
+                        <div class='answerNumber-coment'>2</div></a>
+                        </div>
+                        <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
+                    </div>
+                    <div  class='coment-send-container'>
+                        <div class='coment-clip'><a><img src='img/clip.svg'></a></div>
+                        <div class='coment-answer-input'><textarea class='coment-answer-textarea' placeholder='Прокоментуйте відповідь'></textarea></div>
+                        <div class='coment-send'><a><img src='img/send.svg'></a></div>
+                    </div>
+                </div>
+                <div class='coment'>
+                    <div class='coment-title'>
+                        <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
+                        <div class='userName-coment'>Користувач 1</div>
+                        <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
+                        <div class='answerNumber-coment'>2</div></a>
+                    </div>
+                    <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
+                </div>
+                <div class='coment'>
+                    <div class='coment-title'>
+                        <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
+                        <div class='userName-coment'>Користувач 1</div>
+                        <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
+                        <div class='answerNumber-coment'>2</div></a>
+                    </div>
+                    <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
+                </div>
+                <div class='coment'>
+                    <div class='coment-title'>
+                        <div class='userPhoto-coments'><img src='img/Ава.svg'></div>
+                        <div class='userName-coment'>Користувач 1</div>
+                        <a><div class='answerButton-coment'><img src='img/answer.svg'></div>
+                        <div class='answerNumber-coment'>2</div></a>
+                    </div>
+                    <div class='coment-text'>Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент Комент</div>
                 </div>
             </div>
         </main>
     <footer>
         <div class="footer-contacts-card">
             <div id='ourContacts'>Наші контакти: </div>
-            <a href='tel:+38 (068) 050-80-08' class='link'>+38 (068) 050-80-08 <i>(Відповідаємо Пн-Нд 8.00-22.00)</i></a><br>
-            <a href='mailto:support.yap.com' class='link'>support@yap.com</a><br>
+            <a href='tel:+38 (068) 050-80-08' class='link'>+38 (068) 050-80-08 <i>(Відповідаємо Пн-Сб 8.00-22.00)</i></a><br>
+            <a href='mailto:support.yap.company' class='link'>support@yap.company</a><br>
             <a href='https://www.google.com/maps/place/вулиця+Бальзака,+80,+Київ,+02000/@50.5246295,30.6062368,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4d11a188b6f1b:0xb871b544eb2f655c!8m2!3d50.5246296!4d30.610464!16s%2Fg%2F11f5k20z6f' class='link' >вул. Бальзака 80 кв. 30</a><br>
         </div>
     </footer>

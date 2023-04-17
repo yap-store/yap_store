@@ -2,22 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="14.47821mm"
-   height="13.744158mm"
-   viewBox="0 0 14.47821 13.744158"
+   width="14.478218mm"
+   height="13.744156mm"
+   viewBox="0 0 14.478218 13.744156"
    version="1.1"
-   id="svg5"
-   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
-   sodipodi:docname="Сайт1.svg"
+   id="svg68348"
    xml:space="preserve"
-   inkscape:export-filename="../PNG/Сайт1.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-filename="Ава.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
+   sodipodi:docname="Ава.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview7"
+     id="namedview68350"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -26,18 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.67351921"
-     inkscape:cx="881.93476"
-     inkscape:cy="481.05532"
-     inkscape:window-width="1280"
-     inkscape:window-height="772"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true" /><defs
-     id="defs2"><linearGradient
+     showgrid="false" /><defs
+     id="defs68345"><linearGradient
        id="linearGradient6508"
        inkscape:swatch="solid"><stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -46,23 +35,18 @@
      inkscape:label="Шар 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-325.76166,-27.136327)"><g
-       id="g8357"
-       inkscape:label="Групи товарів"
-       transform="translate(0.13550892,-0.22549156)"><g
-         id="g8268"
-         inkscape:label="Їжа"><g
-           id="g2566"
-           transform="matrix(0.11311102,0,0,0.10737622,271.3061,1.914583)"
-           inkscape:label="Ласощі"
-           style="fill:#7554fa;fill-opacity:1">
+     transform="translate(-77.393305,-111.10991)"><g
+       id="g2566"
+       transform="matrix(0.11311102,0,0,0.10737622,23.07325,85.662678)"
+       inkscape:label="Ласощі"
+       style="fill:#6962d5;fill-opacity:1">
 	<g
    id="g2564"
-   style="fill:#7554fa;fill-opacity:1">
+   style="fill:#6962d5;fill-opacity:1">
 		<path
    fill="#546e7a"
    d="m 524.23667,236.99135 c -3.07,0 -5.875,1.16 -8,3.063 -2.125,-1.903 -4.93,-3.063 -8,-3.063 -3.07,0 -5.875,1.16 -8,3.063 -2.125,-1.903 -4.93,-3.063 -8,-3.063 -6.617,0 -12,5.383 -12,12 v 32 c 0,9.656 5.086,14.742 9.172,18.828 3.816,3.817 6.828,6.828 6.828,13.172 v 40 c 0,6.617 5.383,12 12,12 6.617,0 12,-5.383 12,-12 v -40 c 0,-6.344 3.012,-9.355 6.828,-13.172 4.086,-4.086 9.172,-9.172 9.172,-18.828 v -32 c 0,-6.617 -5.383,-12 -12,-12 z m 4,44 c 0,6.344 -3.012,9.355 -6.828,13.172 -4.086,4.086 -9.172,9.172 -9.172,18.828 v 40 c 0,2.211 -1.789,4 -4,4 -2.211,0 -4,-1.789 -4,-4 v -40 c 0,-9.656 -5.086,-14.742 -9.172,-18.828 -3.816,-3.817 -6.828,-6.828 -6.828,-13.172 v -32 c 0,-2.211 1.789,-4 4,-4 2.211,0 4,1.789 4,4 v 24 c 0,2.211 1.789,4 4,4 2.211,0 4,-1.789 4,-4 v -24 c 0,-2.211 1.789,-4 4,-4 2.211,0 4,1.789 4,4 v 24 c 0,2.211 1.789,4 4,4 2.211,0 4,-1.789 4,-4 v -24 c 0,-2.211 1.789,-4 4,-4 2.211,0 4,1.789 4,4 z m 70.828,21.172 c -3.816,-3.817 -6.828,-6.828 -6.828,-13.172 v -40 c 0,-6.617 -5.383,-12 -12,-12 -6.617,0 -12,5.383 -12,12 v 40 c 0,6.344 -3.012,9.355 -6.828,13.172 -4.086,4.086 -9.172,9.172 -9.172,18.828 0,1.797 0.316,44 28,44 27.684,0 28,-42.203 28,-44 0,-9.656 -5.086,-14.742 -9.172,-18.828 z m -18.828,54.828 c -19.711,0 -20,-35.609 -20,-36 0,-6.344 3.012,-9.355 6.828,-13.172 4.086,-4.086 9.172,-9.172 9.172,-18.828 v -40 c 0,-2.211 1.789,-4 4,-4 2.211,0 4,1.789 4,4 v 40 c 0,9.656 5.086,14.742 9.172,18.828 3.816,3.817 6.828,6.828 6.828,13.172 0,0.359 -0.23,36 -20,36 z"
    id="path2562"
-   style="fill:#7554fa;fill-opacity:1" />
+   style="fill:#6962d5;fill-opacity:1" />
 	</g>
-</g></g></g></g></svg>
+</g></g></svg>

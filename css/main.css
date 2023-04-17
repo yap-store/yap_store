@@ -16,7 +16,7 @@ input:focus, select:focus, textarea:focus {
 
 .link {
     text-decoration: none;
-    color: #7554faff;
+    color: #6962d5ff;
 }
 
 .link1 {
@@ -27,6 +27,7 @@ input:focus, select:focus, textarea:focus {
 main{
     padding-top: 60px;
     overflow-x: hidden;
+    background: round center/100% url(../img/background.svg);
 }
     
 #body {
@@ -37,9 +38,11 @@ header nav{
     width: 100%;
     height: 60px;
     position: fixed;
-    background-color: #7554faff;
-    color: #ffff3bff;
+    background-color: #6962d5ff;
+    color: #6962d5ff;
+    border-bottom: 1px solid #6962d5ff;
     display: inline-flex;
+    z-index: 1;
 }
 
 #brand {
@@ -81,11 +84,11 @@ header nav{
 #search-field {
     height: 30px;
     width: 160%;
-    background-color: rgb(76, 62, 133);
+    background-color: white;
     border-radius: 10px;
-    border: 1px solid #7554faff; 
+    border: 2px solid #6962d5ff; 
     float: right;  
-    color: #ffff3bff;
+    color: #6962d5ff;
     line-height: 30px;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
@@ -95,7 +98,7 @@ header nav{
 .iconSearch {
     position: absolute;
     right: 5px;
-    top: 3px;
+    top: 4px;
 }
 
 #search {
@@ -114,8 +117,10 @@ header nav{
 
 #menu-panel {
     width: 20%;
-    height: 100vh;
-    border-right: 1px solid #7554faff; 
+    height: 100%;
+    border-right: 1px solid #6962d5ff; 
+    padding-right: 1px;
+    background: white;
     float: left;
     min-width: 230px;
     min-height: 660px;
@@ -131,15 +136,15 @@ header nav{
 .log-in-index {
     display: inline-block;
     height: 35px;
+    padding-left: 5px;
     margin: 10px 15%;
     width: 65%;
     min-width: 150px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 15px;
     font-family: 'Balsamiq Sans', cursive;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
-    padding-left: 5%;
 }
 
 .menuButtons {
@@ -153,7 +158,7 @@ header nav{
     line-height: 40px;
     font-size: 30px;
     font-family: 'Balsamiq Sans', cursive;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     color: #ffff3bff;
     border-radius: 25px;
 }
@@ -183,7 +188,7 @@ header nav{
     height: 55px;
     padding: 1px;
     margin: 1px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 10px;   
 }
 
@@ -193,8 +198,16 @@ header nav{
     display: block;   
 }
 
+.groupIcon img {
+    height: 30px;
+}
+
+#all a img {
+    width: 50px;
+}
+
 .groupName {
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     text-align: center;
@@ -203,13 +216,31 @@ header nav{
     width: auto;
 }
 
+#site-title {
+    background: white;
+    border-radius: 30px;
+    border: 3px solid #6962d5ff;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin: 20px 5%;
+    font-size: 60px;
+    color: #6962d5ff;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
 .product-group {
     display: inline-block;
-    margin: 15px;
+    background: white;
+    border-radius: 3px;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    margin: 14px;
     text-align: center;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
-    color: #7554faff;
+    color: #6962d5ff;
 }
 
 .productPhoto {
@@ -230,10 +261,12 @@ header nav{
 }
 
 .productBuy-group {
-    background-color: #7554faff;
+    display: inline-block;
+    float: left;
+    background-color: #6962d5ff;
     color: #ffff3bff;
     font-size: 25px;
-    width: 100%;
+    width: 70%;
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
@@ -242,15 +275,41 @@ header nav{
 }
 
 .productWishlist-group {
-    background-color: #7554faff;
-    width: 100%;
+    display: inline-block;
+    float: right;
+    background-color: #6962d5ff;
+    width: 30px;
     height: 30px;
     border-radius: 15px;
 }
 
 .productWishlist-group img {
-    height: 25px;
-    margin-top: 2.5px;
+    height: 22px;
+    margin-top: 4px;    
+}
+
+#page-change {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+.page-change-arrow {
+    display: inline-block;
+}
+
+.page-change-arrow a img {
+    height: 30px;
+    line-height: 35px;
+}
+
+#page-number {
+    display: inline-block;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #6962d5ff;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0 3px;
 }
 
 #sortingTypes {
@@ -273,9 +332,9 @@ header nav{
     width: 35%;
     height: 30px;
     line-height: 35px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 17.5px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
     text-align: center;
@@ -284,8 +343,8 @@ header nav{
 #-{
     display: inline-block;
     float: left;
-    background-color: #7554faff;
-    color: #7554faff;
+    background-color: #6962d5ff;
+    color: #6962d5ff;
     border-radius: 1.5px;
     width: 10%;
     height: 30px;
@@ -299,9 +358,9 @@ header nav{
     width: 35%;
     height: 30px;
     line-height: 35px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 17.5px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
     text-align: center; 
@@ -311,7 +370,7 @@ label {
     width: flex;
     font-size: 20px;
     cursor: pointer;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -321,7 +380,7 @@ label {
 
 .li1 {
     list-style-type: disc;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     cursor: pointer;
     margin-top: 10px;
@@ -340,7 +399,7 @@ label {
 .menu-panel-structure {
     text-align: center;
     display: block;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     color: #ffff3bff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
@@ -348,7 +407,7 @@ label {
     line-height: 35px;
     min-width: 170px;
     width: 68%; 
-    border: 1px solid #7554faff;
+    border: 1px solid #6962d5ff;
     border-radius: 17.5px;
     margin-left: 16%;
     margin-bottom: 10px;
@@ -363,12 +422,16 @@ label {
 
 footer {
     background-color: white;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
     width: 100%;
-    height: 80px;
-    border-top: 1px solid #7554faff;
+    height: 120px;
+    border-top: 1px solid #6962d5ff;
+}
+
+footer i {
+    font-size: 17px;
 }
 
 .footer-contacts-card{
@@ -389,7 +452,7 @@ footer {
 #rights-wishlist {
     position: fixed;
     width: 15%;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive; 
 }
@@ -403,11 +466,12 @@ footer {
 }
 
 .products-wishlist {
+    background: white;
     height: 120px;
     width: 60%;
     margin-left: 20%;
     padding: 5px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -432,14 +496,14 @@ footer {
 }
 
 .productName-wishlist {
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
     margin: 10px;
 }
 
 .productBrand-wishlist {
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
     margin: 10px;
@@ -452,7 +516,7 @@ footer {
     width: 20%;
     min-width: 120px;
     height: 30px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     border-radius: 15px;
     color: #ffff3bff;
     font-family: 'Balsamiq Sans', cursive;
@@ -468,7 +532,7 @@ footer {
     width: 20%;
     min-width: 120px;
     height: 27.5px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     border-radius: 15px;
     margin-left: 4%;
 }
@@ -520,7 +584,7 @@ footer {
     width: 49%;
     height: 250px;
     padding-top: 0px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     padding-left: 1%;
 }
@@ -535,8 +599,7 @@ footer {
 
 #price-product {
     font-size: 40px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin: 10px 0;
 }
 
 #stock-product {
@@ -550,15 +613,35 @@ footer {
     margin-right: 10px;
 }
 
+#color-product {
+    margin: 5px 10px;
+}
+
+/* тут цвет для примера, он должен подтягиваться для каждого товара свой. И в html решение скорее всего оч костыльное, глянь пж если это можно нормальнее сделать*/
+.color-option {
+    display: inline-block;
+    background: white;
+    color: white;
+    border: 1px solid #6962d5ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.color-option:hover {
+    border: 2px solid #6962d5ff;
+    margin: -1px;
+}
+
 #buy-product {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     font-size: 30px;
     color: #ffff3bff;
     width: 150px;
     height: 40px;
     line-height: 40px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     border-radius: 20px;
     display: inline-block;
 }
@@ -569,7 +652,7 @@ footer {
     margin-left: 20px;
     width: 150px;
     height: 40px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     border-radius: 20px; 
 }
 
@@ -577,16 +660,40 @@ footer {
     height: 30px;
 }
 
+#titles-product {
+    display: inline-block;
+    width: 60%;
+    margin: 15px 20%;
+}
+
+.product-title {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6962d5ff;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0 10px;
+}
+
+.product-title:hover {
+    border-bottom: 3px solid #6962d5ff;
+    margin-bottom: -3px;
+}
+
 #info-product {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
     width: 60%;
     margin-left: 20%;
-    margin-top: 300px;
     height: auto;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
 }
 
 #info-product-title {
+    display: inline-block;
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -606,19 +713,19 @@ th {
     width: 65vh;
     border-width: 0px 3px 3px 0px;
     border-style: solid;
-    border-color: #7554faff;
+    border-color: #6962d5ff;
 }
 
 .th-right {
     width: 65vh;
     border-width: 0px 0px 3px 0px;
     border-style: solid;
-    border-color: #7554faff;
+    border-color: #6962d5ff;
 }
 
 #th-bottom-left {
     width: 65vh;
-    border-right: 3px solid #7554faff;
+    border-right: 3px solid #6962d5ff;
 }
 
 #coments {
@@ -626,14 +733,7 @@ th {
     width: 60%;
     margin-left: 20%;
     font-family: 'Balsamiq Sans', cursive;
-    color: #7554faff;
-}
-
-.coments-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 35px;
-    box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.2);
+    color: #6962d5ff;
 }
 
 #coments-scrollable {
@@ -643,10 +743,11 @@ th {
 }
 
 .coment {
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
+    background: white;
     border-radius: 30px;
     margin-bottom: 15px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -726,7 +827,7 @@ th {
     width: 80%;
     margin: 10px 0;
     height: 60px; 
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 20px;
 }
 
@@ -737,7 +838,7 @@ th {
     width: 98.5%;
     height: 100%;
     padding-left: 1.5%;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     line-height: 30px;
@@ -781,7 +882,7 @@ th {
 .brandIcon-brands {
     display: inline-block;
     text-align: center;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     width: 120px;
@@ -805,7 +906,7 @@ th {
     width: 60%;
     margin-left: 20%;
     margin-top: 20px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -816,8 +917,9 @@ th {
 }
 
 #basket-table {
+    background: white;
     display: block;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 20px;
     border-collapse: collapse;
     font-size: 20px;
@@ -827,7 +929,7 @@ th {
     width: 800px;
     border-width: 0px 3px 3px 0px;
     border-style: solid;
-    border-color: #7554faff;
+    border-color: #6962d5ff;
 }
 
 .th-2 {
@@ -835,17 +937,17 @@ th {
     min-width: 50px;
     border-width: 0px 3px 3px 0px;
     border-style: solid;
-    border-color: #7554faff;
+    border-color: #6962d5ff;
 }
 
 .th-3 {
     width: 100px;
     min-width: 50px;
-    border-bottom: 3px solid  #7554faff;
+    border-bottom: 3px solid  #6962d5ff;
 }
 
 .th-b {
-    border-right: 3px solid #7554faff;
+    border-right: 3px solid #6962d5ff;
 }
 
 th img {
@@ -868,7 +970,7 @@ th img {
     height: 30px;
     line-height: 35px;
     border: none;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
     text-align: center;
@@ -877,7 +979,7 @@ th img {
 #attention-basket {
     width: 50%;
     margin: 30px 0 30px 25%;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
 }
@@ -887,7 +989,7 @@ th img {
     height: 40px;
     line-height: 40px;
     margin: 0 0 20px 25%;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 30px;
     color: #ffff3bff;
@@ -903,7 +1005,7 @@ th img {
 
 .titles-pdi {
     font-family: 'Balsamiq Sans', cursive;
-    color: #7554faff;
+    color: #6962d5ff;
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -913,18 +1015,36 @@ th img {
     display: inline-block;
     height: 35px;
     width: 40%;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 15px;
     font-family: 'Balsamiq Sans', cursive;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     padding-left: 10px;
     margin: 5px 3.5%;
 }
 
-#code {
+#registration {
+    display: inline-block;
+    background: white;
+    height: 35px;
+    line-height: 35px;
     width: 40%;
-    margin-left: 29%;
+    margin: 5px 3.5%; 
+    border: 3px solid #6962d5ff;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+#registration-title {
+    display: inline-block;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #6962d5ff;
+    font-size: 20px;
+}
+
+#registration input {
+    margin-left: 5px;
 }
 
 hr {
@@ -932,12 +1052,18 @@ hr {
     height: 2px;
     border-radius: 1px; 
     margin: 30px 0;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
 }
 
 #payment-info {
     width: 60%;
     margin-left: 20%;
+}
+
+#payment-options {
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .payment-option {
@@ -970,7 +1096,7 @@ hr {
     height: 40px;
     line-height: 40px;
     margin: 20px 0 20px 25%;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 30px;
     color: #ffff3bff;
@@ -987,7 +1113,7 @@ hr {
 #thanks {
     text-align: center;
     margin-top: 30px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 35px;
 }
@@ -998,7 +1124,7 @@ hr {
 
 #download-check {
     margin-top: 20px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     height: 40px;
     line-height: 40px;
     font-family: 'Balsamiq Sans', cursive;
@@ -1025,7 +1151,7 @@ hr {
     display: inline-block;
     height: 214px;
     width: 214px;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 #photoInput input {
@@ -1037,7 +1163,7 @@ hr {
     width: 214px;
     height: 30px;
     line-height: 30px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     color: #ffff3bff;
@@ -1060,10 +1186,10 @@ hr {
     width: 27vh;
     height: 30px;
     margin: 15px 1vh;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 10px;
     padding-left: 5px;
 }
@@ -1071,7 +1197,7 @@ hr {
 #sex-options {
     width: 100%;
     height: 100%;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     border: none;
@@ -1085,14 +1211,14 @@ hr {
 }
 
 #history-title {
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 35px;
     text-align: center;
 }
 
 #coments-title-profile {
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 35px;
     margin-top: 30px;
@@ -1101,7 +1227,7 @@ hr {
 
 .div-complaints {
     display: inline-block;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     text-align: center;
     margin: 30px 4% ;
@@ -1123,22 +1249,22 @@ hr {
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     text-align: center;
 }
 
-#output-80 {
-    width:80%;
-    margin-left: 10%;
+#output-95 {
+    width:95%;
+    margin-left: 2.5%;
     min-height: 100vh;
 }
 
 #title-brand-page {
     padding-left: 10px;
     margin: 30px 0 20px 0;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 30px;
 }
@@ -1149,7 +1275,7 @@ hr {
     width: 50%;
     text-align: center;
     float: left;
-    border-right: 1px solid #7554faff;
+    border-right: 1px solid #6962d5ff;
     margin-left: -1px;
 }
 
@@ -1157,7 +1283,7 @@ hr {
     display: inline-block;
     width: 250px;
     height: 30px;
-    border: 3px solid #7554faff;
+    border: 3px solid #6962d5ff;
     border-radius: 10px;
     margin: 30px 0;
 }
@@ -1172,7 +1298,7 @@ hr {
     line-height: 30px;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
-    color: #7554faff;
+    color: #6962d5ff;
     border-radius: 15px;
 }
 
@@ -1193,7 +1319,8 @@ hr {
 .profile-choose, .product-choose, .history-element {
     width: 100%;
     height: 110px;
-    border: 3px solid #7554faff;
+    background: white;
+    border: 3px solid #6962d5ff;
     border-radius: 25px;
     margin-bottom: 10px;
 }
@@ -1215,7 +1342,7 @@ hr {
     text-align: left;
     float: left;
     padding: 10px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
 }
@@ -1232,7 +1359,7 @@ hr {
     width: 50%;
     text-align: center;
     float: left;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     margin-top: 30px;
@@ -1253,7 +1380,7 @@ hr {
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    background-color: #7554faff;
+    background-color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     text-align: center;
@@ -1274,7 +1401,7 @@ hr {
 #no-user-choose, #no-products-choose {
     display: inline-block;
     text-align: center;
-    color: #7554faff;
+    color: #6962d5ff;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     margin-top: 30px;
@@ -1286,7 +1413,7 @@ hr {
     width: 20%;
     min-width: 260px;
     height: 100vh;
-    border-right: 1px solid #7554faff;
+    border-right: 1px solid #6962d5ff;
 }
 
 #rights-right {
@@ -1300,7 +1427,7 @@ hr {
     width: 200px;
     margin: 30px;
     text-align: left;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 20px;
     font-family: 'Balsamiq Sans', cursive;
 }
@@ -1308,7 +1435,7 @@ hr {
 .rights-docs:hover {
     width: 220px;
     margin-right: 10px;
-    color: #7554faff;
+    color: #6962d5ff;
     font-size: 22px;
 }
 

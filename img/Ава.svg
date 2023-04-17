@@ -3,16 +3,20 @@
 
 <svg
    width="149.99998mm"
-   height="150mm"
-   viewBox="0 0 149.99998 150"
+   height="149.99998mm"
+   viewBox="0 0 149.99998 149.99998"
    version="1.1"
-   id="svg5"
+   id="svg68348"
+   xml:space="preserve"
+   inkscape:export-filename="Ава.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
+   sodipodi:docname="Ава.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview68350"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -21,51 +25,44 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false" />
-  <defs
-     id="defs2">
-    <clipPath
+     showgrid="false" /><defs
+     id="defs68345"><linearGradient
+       id="linearGradient6508"
+       inkscape:swatch="solid"><stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6506" /></linearGradient><clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath1345">
-      <rect
+       id="clipPath1345"><rect
          style="fill:#ff0000;fill-opacity:1;stroke-width:17;stroke-linecap:square;stroke-linejoin:round"
          id="rect1347"
          width="150"
          height="150"
          x="35.513374"
          y="79.126282"
-         ry="8.7225876" />
-    </clipPath>
-  </defs>
-  <g
+         ry="8.7225876" /></clipPath></defs><g
      inkscape:label="Шар 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-35.513371,-79.12628)">
-    <g
+     transform="translate(43.500939,16.36329)"><g
        id="g1343"
-       clip-path="url(#clipPath1345)">
-      <rect
-         style="fill:#7554fa;fill-opacity:1;stroke-width:17;stroke-linecap:square;stroke-linejoin:round"
+       clip-path="url(#clipPath1345)"
+       transform="translate(-79.014314,-95.489573)"><rect
+         style="fill:#6962d5;fill-opacity:1;stroke-width:17;stroke-linecap:square;stroke-linejoin:round"
          id="rect234"
          width="150"
          height="150"
          x="35.513371"
          y="79.126282"
-         ry="8.7225866" />
-      <circle
+         ry="8.7225866" /><circle
          style="fill:#ffff3b;fill-opacity:1;stroke-width:17;stroke-linecap:square;stroke-linejoin:round"
          id="path1006"
          cx="110.51337"
          cy="136.1346"
-         r="30" />
-      <ellipse
+         r="30" /><ellipse
          style="fill:#ffff3b;fill-opacity:1;stroke-width:17;stroke-linecap:square;stroke-linejoin:round"
          id="path1336"
          cx="110.51337"
          cy="260.11987"
          rx="70"
-         ry="100" />
-    </g>
-  </g>
-</svg>
+         ry="100" /></g></g></svg>
